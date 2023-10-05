@@ -1,0 +1,175 @@
+@font-face {
+  font-family: 'Notera';
+  src: url('Notera_PersonalUseOnly.ttf') format('truetype');
+  /* Se a fonte incluir várias variações (negrito, itálico, etc.), você pode especificá-las aqui. */
+}
+
+h1{
+  text-align: center;
+  font-family: 'Notera', cursive;
+  font-size: 40px;
+}
+.bodyy {
+  background-image: linear-gradient(60deg, #A2D2FF, #BDE0FE, #FFAFCC, #FFC8DD, #CDB4DB);
+  background-attachment: fixed;
+}
+
+.discurso-container {
+  background-color: white;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.Discurso {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 2%;
+}
+
+.paragrafo1  {
+  text-align: justify;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+.paragrafo2{
+  text-align: justify;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.link{
+  display: inline-flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 2px 2px;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  margin-top: 10px;
+  color: black; /* Cor do link */
+  text-decoration: none; /* Sublinhado por padrão */
+}
+.link:hover {
+  color: #FFAFCC;
+}
+.link:active{
+  color: #FFAFCC;
+  background-color: white;
+  font-size: 12px;
+  box-shadow: 0 3px 15px -2px;
+}
+
+
+
+/* Estilização para o elemento audio */
+.audio-player-container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 1vh; /* Define a altura como 100% da altura da viewport */
+    padding: 2vh;
+  }
+  
+  .audio-player-container .audio-player {
+    width: 100%;
+    max-width: 300px; /* Define a largura máxima do player de áudio */
+    background-color: #A2D2FF;;
+    padding: 10px;
+    border: 1px solid #a8a5a5;
+    border-radius: 25px;
+  }
+  .audio-player-container .audio::-webkit-media-controls-panel {
+    background-color: #ffc8dd67;
+    
+  }
+  
+  .audio-player-container .audio::-webkit-media-controls-play-button,
+  .audio-player-container .audio::-webkit-media-controls-pause-button {
+    background-color: #a2d2ff94;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+
+  /* Estilizando o tempo de musica */
+  .audio-player-container .audio::-webkit-media-controls-current-time-display,
+  .audio-player-container .audio::-webkit-media-controls-time-remaining-display,
+  .audio-player-container .audio::-webkit-media-controls-time-remaining-display {
+    color: #0b0000;
+    font-size: 14px;
+  }
+  
+  /* Estilização para a barra de progresso */
+  .audio-player-container .audio::-webkit-media-controls-timeline {
+    background-color: #ddd;
+    height: 6px;
+    width: 6px;
+    border-radius: 3px;
+  }
+  
+  .audio-player-container .audio::-webkit-media-controls-seek-back-button,
+  .audio-player-container .audio::-webkit-media-controls-seek-forward-button {
+    display: none; /* Oculta os botões de retroceder e avançar, se desejado */
+  }
+
+
+  .carousel-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-slide {
+    width: 100%;
+    display: none;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: auto;
+}
+
+button {
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    background-color: #eaf0f6;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    margin-left: 50%;
+    margin-top: 10px;
+    transform: translateX(-50%); /* Centraliza horizontalmente */
+}
+
+button:hover {
+    background-color: #A2D2FF;
+}
+
+button:active {
+  font-size: 12px;
+  background-color: #A2D2FF;
+  
+  box-shadow: 0 3px 15px -2px;
+}
+
+
