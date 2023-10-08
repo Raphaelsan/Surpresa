@@ -231,8 +231,8 @@ button:active {
 }
 
 .foto-indicator {
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
   background-color: #BDE0FE;
   border-radius: 50%;
   margin: 0 5px;
