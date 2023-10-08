@@ -214,3 +214,33 @@ button:active {
     right: 10px;
     transform: translateY(-50%);
 }
+
+.carousel-indicators {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.foto-indicator {
+  width: 10px;
+  height: 10px;
+  background-color: #888;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.foto-indicator:hover {
+  background-color: #555;
+}
+
+/* Estilos para o indicador ativo */
+.foto-indicator.active-indicator {
+  background-color: #000;
+  /* Adicione outros estilos desejados para o indicador ativo */
+}
+
+
+
+
+
