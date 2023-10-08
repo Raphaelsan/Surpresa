@@ -242,6 +242,11 @@ button:active {
   background-color: #36294e;
 }
 
+.foto-indicator:active {
+  background-color: #36294e;
+  box-shadow: 0 10px 15px -2px;
+}
+
 /* Estilos para o indicador ativo */
 .foto-indicator.active-indicator {
   background-color: #000;
