@@ -3,6 +3,15 @@
   src: url('Notera_PersonalUseOnly.ttf') format('truetype');
   /* Se a fonte incluir várias variações (negrito, itálico, etc.), você pode especificá-las aqui. */
 }
+@font-face {
+  font-family: 'lato_italic';
+  src: url('/Lato/Lato-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'lato_regular';
+  src: url('/Lato/Lato-Regular.ttf') format('truetype');
+}
 
 h1{
   text-align: center;
@@ -10,7 +19,7 @@ h1{
   font-size: 40px;
 }
 .bodyy {
-  background-image: linear-gradient(60deg, #A2D2FF, #BDE0FE, #FFAFCC, #FFC8DD, #CDB4DB);
+  background-image: linear-gradient(90deg, #A2D2FF, #BDE0FE, #FFAFCC, #FFC8DD, #CDB4DB);
   background-attachment: fixed;
 }
 
@@ -24,7 +33,6 @@ h1{
 }
 
 .Discurso {
-  font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -33,7 +41,7 @@ h1{
 
 .paragrafo1  {
   text-align: justify;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'lato_italic', sans-serif;
   font-size: 18px;
   margin-top: 10px;
   margin-bottom: 30px;
@@ -41,7 +49,7 @@ h1{
 }
 .paragrafo2{
   text-align: justify;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'lat_regular', sans-serif;;
   font-size: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -225,13 +233,13 @@ button:active {
 .foto-indicator {
   width: 10px;
   height: 10px;
-  background-color: #888;
+  background-color: #BDE0FE;
   border-radius: 50%;
   margin: 0 5px;
   cursor: pointer;
 }
 .foto-indicator:hover {
-  background-color: #555;
+  background-color: #36294e;
 }
 
 /* Estilos para o indicador ativo */
