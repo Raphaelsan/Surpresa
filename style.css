@@ -285,6 +285,9 @@ button {
 }
 
 
-
+.pressed {
+  background-color: #36294e; /* Cor de fundo quando pressionado */
+  color: #fff; /* Cor do texto quando pressionado */
+}
 
 

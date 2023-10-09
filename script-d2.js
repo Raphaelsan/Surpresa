@@ -1,4 +1,24 @@
 
+// Selecione todos os elementos do menu de indicadores
+var indicators = document.querySelectorAll('.foto-indicator');
+
+// Adicione um evento de clique a cada elemento
+indicators.forEach(function(indicator) {
+    indicator.addEventListener('click', function() {
+        // Remova a classe "pressed" de todos os indicadores
+        indicators.forEach(function(item) {
+            item.classList.remove('pressed');
+        });
+
+        // Adicione a classe "pressed" apenas ao indicador clicado
+        this.classList.add('pressed');
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+    // Resto do seu código aqui...
+});
+
 
 document.addEventListener("DOMContentLoaded", function () {
     // Carrossel
@@ -68,3 +88,4 @@ document.addEventListener("DOMContentLoaded", function () {
     // Automação do carrossel (navega automaticamente)
     setInterval(nextSlide, 10000); // Mude de slide a cada 10 segundos
 });
+
