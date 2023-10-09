@@ -76,7 +76,7 @@ h1{
 
 .linha-de-separação{
   width: 500px;
-  border-top: 1px solid #CDB4DB; /* Cor e estilo da linha de separação */
+  border-top: 1px solid #cdb4db78; /* Cor e estilo da linha de separação */
   display: flex;
   justify-content: left;
   margin: 40px auto 5px;
