@@ -24,9 +24,9 @@ h1{
   font-size: 40px;
 }
 .bodyy {
-  background-image: -webkit-linear-gradient(270deg, #9dccf7bc, #9acefcce, #BDE0FE, #bac0dbab, #cfbadba3, #FFC8DD, #ffafccc5);
+  background-image: -webkit-linear-gradient(270deg, #A2D2FF, #BDE0FE, #FFAFCC, #FFC8DD, #CDB4DB);
   
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 
 .discurso-container {
