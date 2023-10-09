@@ -74,11 +74,19 @@ h1{
   margin-bottom: 10px;
 }
 
+.linha-de-separação{
+  width: 500px;
+  border-top: 1px solid #CDB4DB; /* Cor e estilo da linha de separação */
+  display: flex;
+  justify-content: left;
+  margin: 40px auto 5px;
+}
+
 .extra-container{
   width: 500px;
   display: flex;
   justify-content: left;
-  margin: 0 auto;
+  margin: 0vh auto;
 }
 .paragrafo3{
   font-family: 'inria-serif-bold', sans-serif;
@@ -281,8 +289,8 @@ button {
 }
 
 .foto-indicator {
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   background-color: #59585886;
   border-radius: 50%;
   margin: 0 5px;
