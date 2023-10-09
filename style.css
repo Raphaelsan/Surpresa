@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Great-Vibes-Regular';
-  src: url('/Great_Vibes/GreatVibes-Regular.ttf') format('truetype');
+  src: url('GreatVibes-Regular.ttf') format('truetype');
   /* Se a fonte incluir várias variações (negrito, itálico, etc.), você pode especificá-las aqui. */
 }
 @font-face {
