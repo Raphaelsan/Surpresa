@@ -86,6 +86,6 @@ document.addEventListener("DOMContentLoaded", function () {
     showSlide(currentIndex);
 
     // Automação do carrossel (navega automaticamente)
-    setInterval(nextSlide, 10000); // Mude de slide a cada 10 segundos
+    setInterval(nextSlide, 1000000); // Mude de slide a cada 1000 segundos
 });
 
