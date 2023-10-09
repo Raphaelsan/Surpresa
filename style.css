@@ -100,15 +100,15 @@ h1{
 
 .data-m{
   font-family: 'inria-serif-regular', sans-serif;
-  margin-top: -15px;
-  font-size: 13px;
+  margin-top: -25px;
+  font-size: 15px;
   margin-bottom: 0%;
   
 
 }
 .data-n{
   font-family: 'inria-serif-bold', sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   margin-top: 0%;
 }
 
@@ -296,14 +296,14 @@ button {
 }
 
 .foto-indicator:active {
-  background-color: #000000;
+  background-color: #88c6fc;
 }
 
 /* Estilos para o indicador ativo */
 .foto-indicator.active-indicator {
   background-color: #BDE0FE;
   /* Adicione outros estilos desejados para o indicador ativo */
-  border: #0000003e 1px solid;
+  border: #00000010 1px solid;
   box-shadow: 0 10px 15px -2px #000000;
   
 }
