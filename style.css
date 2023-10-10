@@ -18,6 +18,7 @@
   src: url('InriaSerif-Bold.ttf') format('truetype');
 }
 @media (max-width: 1200px) {
+  
   .Discurso{
   width: 50%;
   display: inline;
@@ -32,6 +33,13 @@
     justify-content: center;
     display: flex;
   }
+
+  .destaque {
+    font-family: 'inria-serif-bold', sans-serif;
+    display: flex;
+    padding: 0rem 1rem;
+  }
+
   .h1{
     font-size: 40px;
     width: 50%;
@@ -42,8 +50,9 @@
     display: flex;
   }
   .audio-player-container {
-    width: 100%;
+    width: 20rem;
     display: flex;
+    margin: 0 auto;
     justify-content: center;
     padding: 20px 10px;
     background-color: #ff005d00;
@@ -223,7 +232,7 @@ h1{
     height: 85%;
     max-width: 30rem;    
     height: 2rem;
-    background-color: ##9ba2ff;
+    background-color: #9ba2ff;
     padding: 5px ;
     border-radius: 10px;  
   }
