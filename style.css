@@ -69,7 +69,7 @@
   }
   .Discurso{
   margin: 0 2rem ;
-  background-color: red;
+  background-color: rgba(255, 0, 0, 0);
   margin-left: -15rem;
   }
   
@@ -90,6 +90,48 @@
     padding: 0px 0px;
     background-color: #ff005d00;
   }
+  
+
+  .carousel-container {
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    padding-top: 18px ;
+    margin-top: 13px;
+}
+
+.carousel-slide {
+    width: 100%;
+    display: none;
+    margin-left: -2rem;
+    
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: auto;
+}
+.fa-solid.fa-light.fa-chevron-left{
+  margin-left: -1rem;
+  padding: 1px;
+}
+.fa-solid.fa-light.fa-chevron-right{
+  margin-left: -2rem;
+  padding: 1px;
+
+}
+.carousel-indicators {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -1rem;
+} 
+
+
 }
 
 h1{
