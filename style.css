@@ -5,17 +5,17 @@
 }
 @font-face {
   font-family: 'inria-serif-light-italic';
-  src: url('/Inria_Serif/InriaSerif-LightItalic.ttf') format('truetype');
+  src: url('InriaSerif-LightItalic.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'inria-serif-regular';
-  src: url('/Inria_Serif/InriaSerif-Regular.ttf') format('truetype');
+  src: url('InriaSerif-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'inria-serif-bold';
-  src: url('/Inria_Serif/InriaSerif-Bold.ttf') format('truetype');
+  src: url('InriaSerif-Bold.ttf') format('truetype');
 }
 
 h1{
