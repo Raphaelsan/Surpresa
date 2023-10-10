@@ -48,6 +48,7 @@
     align-items: center;
     margin: 0 15rem ;
     display: flex;
+    letter-spacing: 3px;
   }
   .audio-player-container {
     width: 20rem;
