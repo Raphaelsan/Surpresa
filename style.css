@@ -448,10 +448,10 @@ button {
 
 /* Estilos para o indicador ativo */
 .foto-indicator.active-indicator {
-  background-color: #BDE0FE;
+  background-color: #a8b1e9;
   /* Adicione outros estilos desejados para o indicador ativo */
-  border: #00000010 1px solid;
   box-shadow: 0 10px 14px -2px #000000;
+  transform: scale(1.2);
   
 }
 
