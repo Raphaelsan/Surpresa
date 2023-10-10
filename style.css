@@ -86,7 +86,7 @@
   .audio-player-container {
     width: 15rem;
     display: flex;
-    margin-left: 3rem;
+    margin-left: 3.5rem;
     padding: 0px 0px;
     background-color: #ff005d00;
   }
@@ -130,6 +130,11 @@
   align-items: center;
   margin-left: -1rem;
 } 
+.linha-de-separação{
+  width: 20rem;
+  margin: 40px 1rem;
+
+}
 
 
 }
