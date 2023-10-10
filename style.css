@@ -60,7 +60,37 @@
   }
 }
 
+@media (max-width: 720px) {
+  .discurso-container {
+    width: 50%;
+    margin: 0 5rem ;
+    display: flex;
 
+  }
+  .Discurso{
+  margin: 0 2rem ;
+  background-color: red;
+  margin-left: -15rem;
+  }
+  
+  .h1{
+    font-size: 40px;
+    width: 50%;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5rem ;
+    display: flex;
+    letter-spacing: 3px;
+  }
+  .audio-player-container {
+    width: 15rem;
+    display: flex;
+    margin-left: 3rem;
+    padding: 0px 0px;
+    background-color: #ff005d00;
+  }
+}
 
 h1{
   text-align: center;
@@ -334,8 +364,10 @@ button {
     color: #000000;
     border: none;
     cursor: pointer;
-    margin-right: 10px;
     position: relative;
+}
+.prev-button{
+  margin-right: 1rem;
 }
 
 .arrow-button i {
