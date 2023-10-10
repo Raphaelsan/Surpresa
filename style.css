@@ -153,32 +153,32 @@ h1{
     align-items: center; /* Centraliza verticalmente */
     height: 10px; /* Define a altura como 100% da altura da viewport */
     padding: 20px 10px;
-    
+    background-color: #ff005d00;
   }
   
  .audio-player {
+    display: flex;
     width: 100%;
-    max-width: 450px; /* Define a largura máxima do player de áudio */
-    background-color: #425270;;
+    max-width: 30rem; /* Define a largura máxima do player de áudio */
+    height: 2rem;
+    background-color: #09ff0000;;
     padding: 5px;
-    border: 1px solid #a8a5a5;
+    border: 3px solid #ff000000;
     border-radius: 30px;
   }
   .audio{
-    position: relative;
-    display: flex;
     width: 100%;
-    max-width: 439px; /* Define a largura máxima do player de áudio */
-    background-color: #425270;;
-    padding: 5px 5px;
+    height: 85%;
+    max-width: 30rem;    
+    height: 2rem;
+    background-color: #9ba2ff;
+    padding: 5px ;
+    
     border-radius: 30px;
-    align-items: center;
-    text-align: center;
     
     
   }
   .audio-player-container .audio::-webkit-media-controls-panel {
-    background-color: #425270;
     position: relative;
     display: flex;
     align-items: center;
@@ -198,6 +198,7 @@ h1{
     width: 40px;
     height: 40px;
     cursor: pointer;
+    padding: 10px  10px;
     
   }
 
