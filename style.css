@@ -33,11 +33,13 @@
     justify-content: center;
     display: flex;
   }
+  .paragrafo1{
+    display: inline-block;
+  }
 
   .destaque {
     font-family: 'inria-serif-bold', sans-serif;
     display: flex;
-    padding: 0rem 1rem;
   }
 
   .h1{
@@ -76,6 +78,9 @@
     margin: 0 5rem ;
     display: flex;
     letter-spacing: 3px;
+  }
+  .paragrafo1{
+    display: inline-block;
   }
   .audio-player-container {
     width: 15rem;
