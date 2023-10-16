@@ -121,6 +121,7 @@
 .carousel-slide img {
     width: 100%;
     height: auto;
+    margin-left: -1vh;
     padding: 1vh;
 }
 .fa-solid.fa-light.fa-chevron-left{
