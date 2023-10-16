@@ -114,7 +114,7 @@
 .carousel-slide {
     width: 100%;
     display: none;
-    margin-left: -2rem;
+    margin-left: -2vh;
     
 }
 
@@ -123,14 +123,18 @@
     height: auto;
 }
 .fa-solid.fa-light.fa-chevron-left{
-  margin-left: -1rem;
-  padding: 1px;
+/*   margin-left: -1rem;
+ */  padding: 1px;
+     margin-right: -4vh ;
 }
 .fa-solid.fa-light.fa-chevron-right{
-  margin-left: -2rem;
-  padding: 1px;
+/*   margin-left: -2rem;
+ */  padding: 1px;
 
 }
+/* .prev-button{
+  margin-right: -100rem;
+} */
 .carousel-indicators {
   display: flex;
   justify-content: center;
@@ -402,7 +406,7 @@ h1{
     width: 100%;
     height: auto;
 }
-
+/* 
 button {
     display: inline-block;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -416,7 +420,7 @@ button {
     border: none;
     cursor: pointer;
 }
-
+ */
 
 
 
