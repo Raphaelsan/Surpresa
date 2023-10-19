@@ -65,7 +65,7 @@
 @media (max-width: 720px) {
   .Discurso{
   margin: 0 2rem ;
-  background-color: rgb(254, 0, 0);
+  background-color: rgba(255, 255, 255, 0);
   width: 100%;
   }
   .h1-container{
