@@ -60,6 +60,9 @@
     padding: 20px 10px;
     background-color: #ff005d00;
   }
+  .prev-button{
+    margin-right: 0rem;
+  }
 }
 
 @media (max-width: 720px) {
@@ -437,7 +440,7 @@ button {
     position: relative;
 }
 .prev-button{
-  margin-right: 1rem;
+  margin-right: 0rem;
 }
 
 .arrow-button i {
