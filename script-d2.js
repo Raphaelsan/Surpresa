@@ -15,9 +15,7 @@ indicators.forEach(function(indicator) {
     });
 });
 
-document.addEventListener("DOMContentLoaded", function () {
-    // Resto do seu código aqui...
-});
+
 
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -28,6 +26,12 @@ document.addEventListener("DOMContentLoaded", function () {
     const foto1 = document.getElementById("foto1");
     const foto2 = document.getElementById("foto2");
     const foto3 = document.getElementById("foto3");
+    const foto4 = document.getElementById("foto4");
+    const foto5 = document.getElementById("foto5");
+    const foto6 = document.getElementById("foto6");
+    const foto7 = document.getElementById("foto7");
+    const foto8 = document.getElementById("foto8");
+
 
     let currentIndex = 0;
 
@@ -81,11 +85,28 @@ document.addEventListener("DOMContentLoaded", function () {
     foto3.addEventListener("click", () => {
         showfoto(2); // Define o índice para a terceira foto (índice 2)
     });
+    foto4.addEventListener("click", () => {
+        showfoto(3); // Define o índice para a quarta foto (índice 3)
+    });
+    foto5.addEventListener("click", () => {
+        showfoto(4); // Define o índice para a primeira foto (índice 4)
+    });
+    
+    foto6.addEventListener("click", () => {
+        showfoto(5); // Define o índice para a segunda foto (índice 5)
+    });
+    
+    foto7.addEventListener("click", () => {
+        showfoto(6); // Define o índice para a terceira foto (índice 6)
+    });
+    foto8.addEventListener("click", () => {
+        showfoto(7); // Define o índice para a quarta foto (índice 7)
+    });
 
 
     showSlide(currentIndex);
 
     // Automação do carrossel (navega automaticamente)
-    setInterval(nextSlide, 1000000); // Mude de slide a cada 1000 segundos
+    setInterval(nextSlide, 10000000); // Mude de slide a cada 10000 segundos
 });
 
