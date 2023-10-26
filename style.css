@@ -222,6 +222,10 @@ h1{
   font-family: 'Great-Vibes-Regular', cursive;
   font-size: 30px;
 }
+.obs{
+  font-size: 1rem;
+  font-style: italic;
+}
 
 
 .paragrafo1::before {
