@@ -68,6 +68,11 @@
   .prev-button{
     margin-right: 0rem;
   }
+  .linha-de-separação{
+    width: 20rem;
+    margin: 40px 1rem;
+  
+  }
 }
 
 @media (max-width: 720px) {
