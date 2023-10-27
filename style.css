@@ -66,7 +66,7 @@
     background-color: #ff005d00;
   }
   .prev-button{
-    margin-right: 0rem;
+    margin-right: 1rem;
   }
   .linha-de-separação{
     width: 20rem;
@@ -147,9 +147,7 @@
   padding: 0vh;
 
 }
-/* .prev-button{
-  margin-right: -100rem;
-} */
+
 .carousel-indicators {
   display: flex;
   justify-content: center;
@@ -161,7 +159,9 @@
   margin: 40px auto;
 
 }
-
+.prev-button{
+  margin-right: 1rem;
+}
 
 }
 
